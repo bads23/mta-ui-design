@@ -1,0 +1,16 @@
+.header-instruments{
+    height: 15rem;
+    background-color: $color-cream;
+    background-size: cover;
+    position: relative;
+
+
+    .logo-box{
+        text-align: center;
+        padding-top: 4.5rem;
+        
+        .logo{
+            height: 6rem;
+        }
+    }
+}

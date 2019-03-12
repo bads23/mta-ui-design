@@ -1,0 +1,98 @@
+.items{
+    width: 95%;
+    height: 40rem;
+    margin-top: 4rem;
+  
+    h1{
+      font-size: 4rem;
+      padding-bottom: 1.5rem;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    p{
+      color: $color-gold;
+      text-align: center;
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      i{
+        font-size: 1rem;
+      }
+    }
+
+    a{
+      text-decoration: none;
+    }
+  
+    .con{
+      display: flex;
+      flex-direction: row;
+      .item1{
+        width: 20rem;
+        height: 30rem;
+        border: 0.1rem solid $color-gold;
+        margin-right: 5rem;
+        .image1{
+          padding-left: 3rem;
+          padding-right: 3rem;
+          img{
+            width: 16.2rem;
+            height: 16.2rem;
+            padding-top: 2rem;
+          }
+  
+        }
+        .name{
+          text-align: center;
+          font-size: 1.4rem;
+          padding-top: 4rem;
+          color: $color-black;
+        }
+        .price{
+          text-align: center;
+          font-size: 1.4rem;
+          color: $color-gold;
+        }
+      }
+  
+      .item2{
+        width: 20rem;
+        height: 30rem;
+        border: 0.1rem solid $color-gold;
+        margin-right: 5rem;
+        .image2{
+          padding-left: 3rem;
+          padding-right: 3rem;
+          img{
+            width: 16.2rem;
+            height: 16.2rem;
+            padding-top: 2rem;
+          }
+        }
+        .name{
+          text-align: center;
+          font-size: 1.4rem;
+          padding-top: 4rem;
+          color: $color-black;
+        }
+        .price{
+          text-align: center;
+          font-size: 1.4rem;
+          color: $color-gold;
+        }
+      }
+    }
+      .my_list{
+        position: relative;
+        float: right;
+        width: 24.2rem;
+        height: 3.5rem;
+        font-size: 2rem;
+        transform: translateY(-30rem);
+        margin-right: 5rem;
+        option{
+  
+          font-size: 2rem;
+        }
+      }
+  }

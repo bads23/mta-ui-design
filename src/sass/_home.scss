@@ -1,0 +1,47 @@
+.header{
+    height: 95vh;
+    background-color: $color-cream;
+    background-size: cover;
+    position: relative;
+
+    .logo-box{
+        text-align: center;
+        padding-top: 2rem;
+        
+        .logo{
+            height: 6rem;
+        }
+    }
+
+    .textbox{
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        margin-top: 6rem;
+
+        .caption{
+            backface-visibility: hidden;
+            margin-bottom: 4rem;
+
+            .caption-main{
+                display: block;
+                font-size: 2.8rem;
+            }
+
+            .caption-sub{
+                display: block;
+                font-size: 1.4rem; 
+            }
+        }
+    }
+}
+
+footer{
+    background-color: $color-cream;
+    color: $color-black;
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
