@@ -37,20 +37,73 @@
   font-size: 1.4rem;
 }
 
-.bg-text{
+.lg-text{
   font-size: 2rem;
 }
 
-.xbg-text{
+.xlg-text{
   font-size: 2.8rem;
 }
 
 
 // Main Classes
 .lato-xsm{
-  @extend .lato, .xsm-text, .mb ;
+  @extend .lato, .xsm-text ;
  }
+
+ .lato-xsm-i{
+   @extend .lato-xsm, .i ;
+ }
+
+ .lato-xsm-mb{
+   @extend .lato-xsm, .mb ;
+ }
+
+.lato-xsm-b{
+  @extend .lato-xsm, .b ;
+}
 
 .lato-sm{
  @extend .lato, .sm-text ;
+}
+
+.lato-sm-b{
+  @extend .lato, .sm-text, .b ;
+}
+
+.lato-m{
+  @extend .lato, .medium-text ;
+}
+
+.lato-lg{
+  @extend .lato, .lg-text ;
+}
+
+.lato-xlg{
+  @extend .lato, .xlg-text ;
+}
+
+.playfair-xsm{
+  @extend .playfair, .xsm-text ;
+}
+
+.playfair-sm{
+  @extend .playfair, .sm-text ;
+}
+
+.playfair-m{
+  @extend .playfair, .medium-text ;
+}
+
+.playfair-lg{
+  @extend .playfair, .lg-text ;
+}
+
+.playfair-xlg{
+  @extend .playfair, .xlg-text ;
+}
+
+// Fontawesome icons
+.fas{
+  @extend .medium-text ;
 }
