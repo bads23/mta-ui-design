@@ -27,10 +27,11 @@
     .con{
       display: flex;
       flex-direction: row;
+
       .item1{
         width: 20rem;
         height: 30rem;
-        border: 0.1rem solid $color-gold;
+        border: 0.1rem solid lightgray;
         margin-right: 5rem;
         .image1{
           padding-left: 3rem;
@@ -58,7 +59,7 @@
       .item2{
         width: 20rem;
         height: 30rem;
-        border: 0.1rem solid $color-gold;
+        border: 0.1rem solid lightgray;
         margin-right: 5rem;
         .image2{
           padding-left: 3rem;
@@ -80,6 +81,12 @@
           font-size: 1.4rem;
           color: $color-gold;
         }
+      }
+      a:hover{
+        border: 0.1rem solid $color-gold;
+        width: 20rem;
+        height: 30rem;
+        margin-right: 5rem;
       }
     }
       .my_list{
