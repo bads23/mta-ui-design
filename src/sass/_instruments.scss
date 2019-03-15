@@ -14,3 +14,115 @@
         }
     }
 }
+
+/*Products page*/
+
+.product-container{
+    .image-container{
+        width: 50%;
+        transform: translateY(3rem);
+    }
+    .text-container{
+        width: 50%;
+        float: right;
+        transform: translateY(-40rem);
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.4rem;
+            i{
+                font-size: 1.4rem;
+                color: $color-gold;
+            }
+        }
+    }
+}
+
+/*Cart page*/
+
+.cart-container{
+    margin-left: 17rem;
+    margin-top: 10rem;
+    .item-container{
+        display: flex;
+        flex-direction: row;
+        height: 3.5rem;
+        margin-bottom: 17rem;
+        .image-container{
+            width: 3rem;
+            height: 3rem;
+            margin-right: 17rem;
+        }
+        .item-desc{
+            transform: translateY(4rem);
+            padding-right: 30rem;
+            h1{
+                font-size: 2rem;
+            }
+            p{
+                font-size: 1.4rem;
+            }
+        }
+        .price-container{
+            color: $color-gold;
+            transform: translateY(4rem);
+            p{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}
+
+.total{
+    float: right;
+    text-align: center;
+    transform: translateX(-35rem);
+    p{
+        font-size: 1.5rem;
+        span{
+            font-size: 1.5rem;
+        }
+    }
+    .subtotal{
+        color: $color-gold;
+        font-size: 1.5rem;
+    }
+    a{
+        width: 15rem;
+        text-align: center;
+    }
+}
+
+
+/*checkout Page*/
+
+.checkout-form{
+    margin-top: 30rem;
+    transform: translateX(30rem);
+    h1{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    .textbox3{
+     
+        overflow: hidden;
+        font-size: 2rem;
+        padding: 0.8rem 0;
+        margin: 0.8rem 0;
+        input{
+          width: 40%;
+          height: 4rem;
+          font-size: 1.8rem;
+          padding-left: 1rem;
+          border: 0.1rem solid $color-black;
+          
+        }
+      }
+      a{
+          width: 40%;
+          text-align: center;
+      }
+}
