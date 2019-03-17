@@ -11,90 +11,120 @@
 </head>
 <body>
 
-    <header class="header-instruments">
-        <div class="logo-box">
-            <img src="./img/MTA.png" alt="Logo" class="logo"> 
-        </div>
-    </header>
+    <div id="wrapper">
 
-    <div class="product-container">
-        <div class="image-container">
-            <img src="./img/Drumx2.png">
-        </div>
-            
+        <div id="top-bar"></div>
 
-        <div class="text-container">
-            <h1>5 Piece Drum Set</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
-                explicabo assumenda asperiores atque, quod ducimus dicta, at iusto unde adipisci, 
-                itaque qui molestiae maiores delectus! Magnam pariatur quibusdam nihil reiciendis.
-            </p>
-            &nbsp;
-            <h1>Features</h1>
-            <p><i class="fas fa-caret-right"></i>Feature 1</p>
-            <p><i class="fas fa-caret-right"></i>Feature 2</p>
-            <p><i class="fas fa-caret-right"></i>Feature 3</p>
-            <p><i class="fas fa-caret-right"></i>Feature 4</p>
-            <a href="cart.html" class="btn btn-black">Add to Cart</a>
-        </div>
-    </div>
-    
-    <div class="items">
-        <h1>Related Items</h1>
-        <div class="con">
-            <div class="item1">
-                
-                <div class="image1"><img src="img/ac.png"></div>
-                
-                <p class="name">Acoustic Guitar</p>
-                <p class="price">Ksh 4989</p>
-                
+        <div id="header">
+            <div id="left-header" class="header-sides">
+            <div class="top">Sunday</div>
+            <hr>
+            <div class="bottom">March 17, 2019</div>
             </div>
+            <div class="logo-box">
+                <img src="./img/MTA.png" alt="Logo" class="logo"> 
+            </div>
+            <div id="right-header" class="header-sides">
+                <div class="top"><span class="playfair-links"> <a href="">Sign in </a>  </span> | <span class="playfair-links"><a href="">Register </a></span> </div>
+                <hr>
+                <div class="bottom">Your Cart is empty</div>
+            </div>
+        </div>
+
+        <div class="product-container">
+            <div class="image-container">
+                <img src="./img/Drumx2.png">
+            </div>
+                
+
+            <div class="text-container">
+                <h1 class="playfair-xlg mg-v-20">5 Piece Drum Set</h1>
+                <p class="lato-m">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi 
+                    explicabo assumenda asperiores atque, quod ducimus dicta, at iusto unde adipisci, 
+                    itaque qui molestiae maiores delectus! Magnam pariatur quibusdam nihil reiciendis.
+                </p>
+                &nbsp;
+                <h1 class="playfair-lg mg-v-10">Features</h1>
+                
+                <ul class="lato-m">
+                    <li>Feature 1</li>
+                    <li>Feature 2</li>
+                    <li>Feature 3</li>
+                    <li>Feature 4</li>
+                </ul>
+
+                    <a href="cart.html">
+                        <button class="btn mg-v-20">
+                            Add to Cart
+                        </button>
+                    </a>
+            </div>
+        </div>
+
+        <div class="items">
+            <h1 class="playfair-lg mg-v-10">Related Items</h1>
+
+            <div class="con">
+
+                <a href="product.html">
+                    <div class="item">
+                        <div class="pr-image"><img src="img/ac.png"></div>      
+                        <div class="pr-info">
+                        <p class="lato-m b">Music Instrument</p>
+                        <p class="playfair-sm">Ksh 4,989</p>
+                        </div>
+                    
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="pr-image"><img src="img/Drumx2.png"></div>      
+                        <div class="pr-info">
+                        <p class="lato-m b">Music Instrument</p>
+                        <p class="playfair-sm">Ksh 4,989</p>
+                        </div>
+                    
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="pr-image"><img src="img/bass.png"></div>      
+                        <div class="pr-info">
+                        <p class="lato-m b">Music Instrument</p>
+                        <p class="playfair-sm">Ksh 4,989</p>
+                        </div>
+                    
+                    </div>
+                </a>
+                
+
+                <a href="#">
+                    <div class="item">
+                        <div class="pr-image"><img src="img/saxo.png"></div>      
+                        <div class="pr-info">
+                        <p class="lato-m b">Music Instrument</p>
+                        <p class="playfair-sm">Ksh 4,989</p>
+                        </div>
+                    
+                    </div>
+                </a>
+
+                <a href="#">
+                    <div class="item">
+                        <div class="pr-image"><img src="img/pick.png"></div>      
+                        <div class="pr-info">
+                        <p class="lato-m b">Music Instrument</p>
+                        <p class="playfair-sm">Ksh 4,989</p>
+                        </div>
+                    
+                    </div>
+                </a>
+            </div>
+        </div>
         
-            <div class="item2">
-                
-                <a href="product.html"><div class="image2"><img src="img/drum.png"></div></a>
-              
-                <p class="name">Drums</p>
-                <p class="price">Ksh 4989</p>
-              
-            </div>
-      
-      
-            <div class="item2">
-                
-                  <div class="image2"><img src="img/bass.png"></div>
-                
-                  <p class="name">Bass Guitar</p>
-                  <p class="price">Ksh 4989</p>
-                
-            </div>
-      
-            <div class="item2">
-                
-                <div class="image2"><img src="img/saxo.png"></div>
-                
-                <p class="name">Saxophone</p>
-                <p class="price">Ksh 4989</p>
-                
-            </div>
-      
-            <div class="item2">
-                
-                <div class="image2"><img src="img/pick.png"></div>
-                
-                <p class="name">Guitar pick</p>
-                <p class="price">Ksh 4989</p>
-                
-            </div>
-
-
-      
-              
-        </div>
     </div>
-
-    
     <script src="bundle.js"></script>
 </body>
 </html>

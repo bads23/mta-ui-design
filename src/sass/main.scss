@@ -1,5 +1,6 @@
-@import './fonts';
 @import './colours';
+@import './fonts';
+@import './spacing';
 @import './buttons';
 @import './forms';
 @import './items';
@@ -21,11 +22,13 @@ html{
 }
 
 body{
-  /*background-color: cornflowerblue;*/
-  padding: 3rem;
+  width: 100%;
 }
 
-
+a{
+  color: inherit;
+  text-decoration: none;
+}
 
 
 
@@ -46,17 +49,6 @@ body{
   }
 }
 
-
-.gold{
-  color: $color-gold;
-}
-
-.cream{
-  color: $color-cream; 
-}
-
-
-
 /*Icons*/
 .icons{
   width: 50%;
@@ -71,9 +63,12 @@ body{
   }
 }
 
-/*Item element*/
+/* GENERAL STYLING */
 
-
-
-
-
+.img-wrap{
+  overflow: hidden;
+  img{
+    width: 100%;
+    object-fit: contain;
+  }
+}

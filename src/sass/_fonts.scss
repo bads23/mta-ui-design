@@ -4,7 +4,9 @@
 }
 
 .playfair{
-  font-display: 'Playfair', serif;
+  font-family: 'Playfair Display', serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
 }
 
 
@@ -14,8 +16,13 @@
 }
 
 .b{
-  font-weight: bold;
+  font-weight: 700;
 }
+
+.xb{
+ font-weight: 900;
+}
+
 .l{
   font-weight: 200;
 }
@@ -45,6 +52,9 @@
   font-size: 2.8rem;
 }
 
+.xxlg-text{
+  font-size: 3.8rem;
+}
 
 // Main Classes
 .lato-xsm{
@@ -103,7 +113,37 @@
   @extend .playfair, .xlg-text ;
 }
 
+.playfair-xxlg{
+  @extend .playfair, .xxlg-text ;
+}
+
+.text-links{
+  @extend .lato-m, .b ;
+  color: $color-gold;
+  margin: 5px;
+  &:hover{
+    text-decoration: underline;
+  }
+  
+}.playfair-links{
+  @extend .playfair-m ;
+  color: $color-black ;
+  margin: 5px;
+  &:hover{
+    text-decoration: underline;
+  }
+}
+
+
 // Fontawesome icons
 .fas{
   @extend .medium-text ;
+}
+
+.align-right{
+  text-align: right;
+}
+
+.align-left{
+  text-align: left;
 }
