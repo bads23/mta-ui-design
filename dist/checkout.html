@@ -10,65 +10,114 @@
   <title>GYM EQUIPMENT</title>
 </head>
 <body>
-    <header class="header-instruments">
-        <div class="logo-box">
-            <img src="./img/MTA.png" alt="Logo" class="logo"> 
-        </div>
-    </header>
+    <div id="wrapper">
 
-    <div class="cart-container">
-        <div class="item-container">
-            <div class="image-container">
-                <img src="./img/drum.png">
-            </div>
-            <div class="item-desc">
-                <h1>5 Piece Drum Set</h1>
-                <p>Quantity: 1</p>
-            </div>
+        <div id="top-bar"></div>
 
-            <div class="price-container">
-                <p>Kshs 53,213</p>
+        <div id="header">
+            <div id="left-header" class="header-sides">
+            <div class="top">Sunday</div>
+            <hr>
+            <div class="bottom">March 17, 2019</div>
             </div>
-
+            <div class="logo-box">
+                <img src="./img/MTA.png" alt="Logo" class="logo"> 
+            </div>
+            <div id="right-header" class="header-sides">
+                <div class="top"><span class="playfair-links"> <a href="">Sign in </a>  </span> | <span class="playfair-links"><a href="">Register </a></span> </div>
+                <hr>
+                <div class="bottom">Your Cart is empty</div>
+            </div>
         </div>
 
-        <div class="item-container">
-            <div class="image-container">
-                <img src="./img/pick.png">
-            </div>
-            <div class="item-desc">
-                <h1>Guitar Pick</h1>
-                <p>Quantity: 1</p>
+        <div class="cart-container">
+            <h1 class="playfair-lg mg-v-20">Shopping Cart</h1>
+
+            <div class="item-container mg-v-20">
+                <div class="item-desc flex">
+                    <div class="image-container img-wrap mg-h-10">
+                        <img src="./img/drum.png">
+                    </div>
+                    <div class="details-container mg-h-20">
+                        <p class="lato-lg">5 Piece Drum Set</p>
+                        <p class="lato-sm mg-v-5 i">Quantity: 1</p>
+                    </div>
+                </div>
+    
+                <div class="price-container">
+                    <p class="playfair-lg gold">Ksh 53,213</p>
+                </div>
+    
             </div>
 
-            <div class="price-container">
-                <p>Kshs 2,167</p>
+            <div class="item-container mg-v-20">
+                <div class="item-desc flex">
+                    <div class="image-container img-wrap mg-h-10">
+                        <img src="./img/drum.png">
+                    </div>
+                    <div class="details-container mg-h-20">
+                        <p class="lato-lg">5 Piece Drum Set</p>
+                        <p class="lato-sm mg-v-5 i">Quantity: 1</p>
+                    </div>
+                </div>
+    
+                <div class="price-container">
+                    <p class="playfair-lg gold">Ksh 53,213</p>
+                </div>
+    
             </div>
+            
+            <div class="total pd-20 align-right medium-text">
+                <p> <span class="lato"> Subtotal:</span>&nbsp;&nbsp;<span class="playfair-m b price-spans">Ksh 55,380</span></p>
+                <p> <span class="lato">V.A.T:</span> <span class="playfair-m b price-spans">Ksh 0</span></p>
 
+                <p><span class="lato">Total:</span><span class="subtotal playfair-xlg mg-v-20 gold price-spans">Ksh 55,380</span></p>
+            </div>
+    
+    
         </div>
 
-    </div>
+        <!-- <div class="checkout-form">
+            <h1 class="playfair-lg align-center">Please Sign In to Complete Checkout</h1>
+            <p class="lato-m i align-center mg-v-20">If you are not registered, Click to register</p>
 
-    <div class="total">
-        <p>Subtotal:Ksh 55,380</p>
-        <p>V.A.T:Ksh 0</p>
-        <p><span>Total:</span><span class="subtotal"> 55,380</span></p>
-    </div>
+            <form class="form">
+                
+                <div class="input">
+                    <label>Email:</label>
+                    <input type="email" placeholder="Email address" name="" value=""/>
+                </div>
+                
+                <div class="input">
+                    <label>Password:</label>
+                    <input type="password" placeholder="Password" name="" value=""/>
+                </div>
 
-    <div class="checkout-form">
-        <h1>Please Sign In to Complete Checkout</h1>
-        <p>If you are not registered,Click to register</p>
-        &nbsp
-        <p>Email:</p>
-        <div class="textbox3">
-          <input type="text" placeholder="Placeholder text" name="" value="">
+                <button class="btn btn-full mg-v-50">Sign In</button>
+                
+            </form>
+        </div> -->
+
+        <div class="checkout-form">
+            <h1 class="playfair-lg align-center">Confirm Payment</h1>
+            <p class="lato-m i align-center mg-v-20">Pick your preffered method of payment</p>
+
+            <form class="form"> 
+                <div>
+                    <h2 class="lato-m b radio radio-checked mg-v-10">Mpesa</h2>
+                    <p class="lato-m">Pay Ksh 55,380 via Mpesa. Enter your phone number to make the payment.</p>
+                </div>
+                <div class="input">
+                    <label>Phone Number:</label>
+                    <input type="email" placeholder="Enter the phone number you'll use to pay" name="" value=""/>
+                </div>
+                
+                
+                <button class="btn btn-full mg-v-50">Make Payment</button>
+                
+            </form>
         </div>
 
-        <p>Password:</p>
-        <div class="textbox3">
-          <input type="text" placeholder="Placeholder text" name="" value="">
-        </div>
-        <a href="#" class="btn btn-black">Sign In</a>
     </div>
     <script src="bundle.js"></script>
 </body>

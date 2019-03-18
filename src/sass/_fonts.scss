@@ -9,6 +9,10 @@
   -webkit-font-smoothing: antialiased !important;
 }
 
+.fontawesome{
+  font-family: "Font Awesome 5 Free";
+}
+
 
 // Font Styles
 .mb{
@@ -146,4 +150,8 @@
 
 .align-left{
   text-align: left;
+}
+
+.align-center{
+  text-align: center;
 }

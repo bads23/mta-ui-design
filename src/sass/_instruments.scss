@@ -72,31 +72,53 @@
 /*checkout Page*/
 
 .checkout-form{
-    margin-top: 30rem;
-    transform: translateX(30rem);
-    h1{
-        font-size: 2rem;
+    width: 100%;
+    max-width: 500px;
+    margin: 0px auto;
+
+}
+.input{
+    width: 100%;
+    @extend .mg-v-20 ;
+    label{
+        display: block;
+        @extend .lato-m, .b, .i ;
+        @extend .mg-v-10 ;
     }
-    p{
-        font-size: 1.4rem;
+    input{
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: none;
+        border-bottom: 1px solid $light-grey ;
     }
-    .textbox3{
-     
-        overflow: hidden;
-        font-size: 2rem;
-        padding: 0.8rem 0;
-        margin: 0.8rem 0;
-        input{
-          width: 40%;
-          height: 4rem;
-          font-size: 1.8rem;
-          padding-left: 1rem;
-          border: 0.1rem solid $color-black;
-          
-        }
-      }
-      a{
-          width: 40%;
-          text-align: center;
-      }
+}
+
+.form{
+    padding: 20px;
+    .btn-1{
+        @extend .mg-v-20 ;
+    }
+    .btn-full{
+        @extend .btn-1 ;
+        width: 100%;
+    }
+}
+
+.radio-checked{
+    &::before{
+        content: '\f058' ;
+        @extend .fontawesome, .mg-h-10 ;
+        font-weight: normal;
+        margin-left: -22px;
+    }
+}
+
+.radio-unchecked{
+    &::before{
+        content: '\f111' ;
+        @extend .fontawesome, .mg-h-10 ;
+        font-weight: normal;
+        margin-left: -22px;
+    }
 }

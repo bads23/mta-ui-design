@@ -35,6 +35,10 @@
   @include margin(20px 0px)
 }
 
+.mg-v-50{
+  @include margin(50px 0px)
+}
+
 .mg-h-5{
   @include margin(0px 5px)
 }
