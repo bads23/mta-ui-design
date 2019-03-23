@@ -6,7 +6,7 @@
 @import './items';
 @import './home';
 @import './instruments';
-
+@import './dashboard';
 
 *,
 *::after,
@@ -36,6 +36,9 @@ input{
   background-color: none;
 }
 
+.block{
+  display: block;
+}
 
 /*colors*/
 .colors{
