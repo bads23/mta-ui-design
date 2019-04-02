@@ -88,3 +88,64 @@
   height: 164px;
   background-color: $light-grey;
 }
+
+
+/*products page*/
+
+.midsection-products{
+  position: absolute;
+  left: 230px;
+  right: 397px;
+  @include padding(30px 30px);
+
+}
+
+.sidebar-right-products{
+  position: absolute;
+  right: 0px;
+  height: 100vh;
+  width: 397px;
+  border-left: 1px solid $light-grey;
+  @include padding(30px 0px 0px 0px);
+  .dash-prod-t{
+    text-align: center;
+    a:hover{
+      border-bottom: 1px solid $color-gold;
+      color: $color-gold;
+    }
+
+    a:active{
+      border-bottom: 1px solid $color-gold;
+      color: $color-gold;
+    }
+  }
+}
+
+/*Orders page*/
+
+table{
+  width: 100%;
+  height: 40vh;
+  margin-top: 5rem;
+}
+
+th{
+  text-align: left;
+}
+
+tr:nth-child(even){
+  background-color: $color-cream;
+}
+
+table, th, td {
+  border-collapse: collapse;
+}
+
+
+.sidebar-right-orders{
+  margin: 4rem;
+}
+.order-text{
+  display: block;
+}
+
