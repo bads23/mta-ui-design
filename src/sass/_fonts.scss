@@ -49,6 +49,10 @@
   font-size: 1.4rem;
 }
 
+.medium-l{
+  font-size: 1.8rem;
+}
+
 .lg-text{
   font-size: 2rem;
 }
@@ -88,6 +92,10 @@
 
 .lato-m{
   @extend .lato, .medium-text ;
+}
+
+.lato-ml{
+  @extend .lato, .medium-l ;
 }
 
 .lato-lg{
@@ -159,5 +167,10 @@
 
 
 .letter-spacing-5{
-  letter-spacing: 5px;
+  letter-spacing:4px;
+}
+
+.long-text{
+  line-height: 28px;
+  text-align: justify;
 }
